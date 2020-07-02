@@ -1,0 +1,20 @@
+$break-mobile: 320px;
+$break-tablet: 768px;
+$break-labtop:1024px;
+
+.login-header {
+	text-align: center;
+	color: blue;
+}
+
+.submit_btn {
+	text-align: center;
+}
+
+.login-page {
+	padding: 20px;
+	margin: auto;
+	@media screen and (min-width: #{$break-tablet}) {
+		width: 40%;
+	}
+}

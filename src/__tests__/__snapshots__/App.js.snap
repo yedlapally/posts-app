@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="login-page"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="login-header card-header"
+    >
+      Login
+    </div>
+    <div
+      className="card-body"
+    >
+      <form
+        className=""
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            className=""
+            htmlFor="exampleEmail"
+          >
+            Username
+          </label>
+          <input
+            className="form-control"
+            id="username"
+            name="username"
+            onChange={[Function]}
+            placeholder="Username"
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            className=""
+            htmlFor="Password"
+          >
+            Password
+          </label>
+          <input
+            className="form-control"
+            id="password"
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          aria-label={null}
+          className="submit_btn btn btn-primary"
+          onClick={[Function]}
+          type="button"
+          variant="contained"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

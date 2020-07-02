@@ -1,0 +1,33 @@
+$break-mobile: 320px;
+$break-tablet: 768px;
+$break-labtop:1024px;
+
+.back-btn {
+	width: 80%;
+	margin: 10px 10px;
+	padding: 10px 10px;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.back-btn a {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.back-btn:hover {
+	background-color: #C0DDF5;
+}
+
+h2 {
+	text-align: center;
+}
+
+.detail-lbls {
+	font-size: 14px;
+	padding: 5px;
+	.bold-lbls {
+		font-weight: 500;
+	}
+}
